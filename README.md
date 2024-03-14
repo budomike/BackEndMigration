@@ -4,7 +4,7 @@ This  project aims to modernize a legacy back-end system for a travel agency's v
 
 
 
-1. Creating a New Java Project with Spring Initializr: Set up a new Java project using Spring Initializr with essential dependencies.
+1. Create a New Java Project with Spring Initializr: Set up a new Java project using Spring Initializr with essential dependencies.
 
 2. Package Structure Creation: Construct four new packages – controllers, entities, dao, and services – for organizing code.
 
