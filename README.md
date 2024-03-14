@@ -8,7 +8,7 @@ This  project aims to modernize a legacy back-end system for a travel agency's v
 
 2. Package Structure Creation: Construct four new packages – controllers, entities, dao, and services – for organizing code.
 
-3.Entity Class Implementation: Write code for the entities package to define entity classes and enums matching the UML diagram.
+3. Entity Class Implementation: Write code for the entities package to define entity classes and enums matching the UML diagram.
 
 4. Repository Interface Creation: Implement repository interfaces in the dao package, extending JpaRepository, and incorporate cross-origin support.
 
