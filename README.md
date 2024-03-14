@@ -1,27 +1,15 @@
-<strong> **DO NOT DISTRIBUTE OR PUBLICLY POST SOLUTIONS TO THESE LABS. MAKE ALL FORKS OF THIS REPOSITORY WITH SOLUTION CODE PRIVATE. PLEASE REFER TO THE STUDENT CODE OF CONDUCT AND ETHICAL EXPECTATIONS FOR COLLEGE OF INFORMATION TECHNOLOGY STUDENTS FOR SPECIFICS. ** </strong>
-# WESTERN GOVERNOR UNIVERSITY 
-## D288 – BACK-END PROGRAMMING
-Welcome to Back-End Programming! This is an opportunity for students to develop object-oriented applications that can be integrated with relational databases, write code for object-oriented applications using Spring framework, and implements design patterns for object-oriented applications. 
-FOR SPECIFIC TASK INSTRUCTIONS AND REQUIREMENTS FOR THIS ASSESSMENT, PLEASE REFER TO THE COURSE PAGE.
-## BASIC INSTRUCTIONS
-For this project, you will be building your project using IntelliJ IDEA (Ultimate Edition) in a WGU-provided lab environment. You will be working with an existing MySQL database and Angular front-end, which are supplied for you in the lab environment. You will share this project to a private external GitLab repository and backup regularly. If you wish to work on it on your local machine, you will also need to download the Angular front-end application and create your own MySQL database. Use the links on your course page to install the integrated development environments (IDE), MySQL WorkBench, and IntelliJ IDEA, and pull the project from the lab environment.  
+## D288 - Legacy Back-End Migration: Spring Java Development
 
+# Project Overview
+This  project aims to modernize a legacy back-end system for a travel agency's vacation booking application using the Spring framework. The project involves creating a new Spring Boot project with dependencies for Spring Data JPA, Rest Repositories, MySQL Driver, and Lombok. Additionally, it includes the construction of specific packages and the implementation of various components to facilitate checkout functionality and manage vacation packages.
 
-## SUPPLEMENTAL RESOURCES  
-1.	How to clone a project to IntelliJ using Git?
-
-> Ensure that you have Git installed on your system and that IntelliJ is installed using [Toolbox](https://www.jetbrains.com/toolbox-app/). Make sure that you are using version 2022.3.2. Once this has been confirmed, click the clone button and use the 'IntelliJ IDEA (HTTPS)' button. This will open IntelliJ with a prompt to clone the proejct. Save it in a safe location for the directory and press clone. IntelliJ will prompt you for your credentials. Enter in your WGU Credentials and the project will be cloned onto your local machine.  
-
-2. How to create a branch and start Development?
-
-- GitLab method
-> Press the '+' button located near your branch name. In the dropdown list, press the 'New branch' button. This will allow you to create a name for your branch. Once the branch has been named, you can select 'Create Branch' to push the branch to your repository.
-
-- IntelliJ method
-> In IntelliJ, Go to the 'Git' button on the top toolbar. Select the new branch option and create a name for the branch. Make sure checkout branch is selected and press create. You can now add a commit message and push the new branch to the local repo.
-
-## SUPPORT
-If you need additional support, please navigate to the course page and reach out to your course instructor.
-## FUTURE USE
-Take this opportunity to create or add to a simple resume portfolio to highlight and showcase your work for future use in career search, experience, and education!
-
+Project Tasks:
+Creating a New Java Project with Spring Initializr: Set up a new Java project using Spring Initializr with essential dependencies.
+Package Structure Creation: Construct four new packages – controllers, entities, dao, and services – for organizing code.
+Configuration Setup: Set up a configuration package and integrate RestDataConfig.java and application.properties files to ensure correct package and import addresses.
+Entity Class Implementation: Write code for the entities package to define entity classes and enums matching the UML diagram.
+Repository Interface Creation: Implement repository interfaces in the dao package, extending JpaRepository, and incorporate cross-origin support.
+Service Layer Development: Develop the services package, including classes for purchase data, purchase response, checkout service interface, and implementation.
+Validation Implementation: Integrate validation to enforce required inputs for the Angular front-end.
+REST Controller Development: Implement a REST controller class in the controllers package, featuring a post mapping to handle order placements.
+These tasks aim to address the modernization needs of the legacy back-end system while enhancing functionality and usability. The project showcases proficiency in Java, Spring Framework, and back-end development practices.
