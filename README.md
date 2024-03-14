@@ -1,5 +1,3 @@
-## D288 - Legacy Back-End Migration: Spring Java Development
-
 # Project Overview
 This  project aims to modernize a legacy back-end system for a travel agency's vacation booking application using the Spring framework. The project involves creating a new Spring Boot project with dependencies for Spring Data JPA, Rest Repositories, MySQL Driver, and Lombok. Additionally, it includes the construction of specific packages and the implementation of various components to facilitate checkout functionality and manage vacation packages.
 
