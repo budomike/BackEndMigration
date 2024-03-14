@@ -8,7 +8,7 @@ Creating a New Java Project with Spring Initializr: Set up a new Java project us
 
 Package Structure Creation: Construct four new packages – controllers, entities, dao, and services – for organizing code.
 
-Configuration Setup: Set up a configuration package and integrate RestDataConfig.java and application.properties files to ensure correct package and import addresses.
+
 
 Entity Class Implementation: Write code for the entities package to define entity classes and enums matching the UML diagram.
 
