@@ -18,4 +18,4 @@ This  project aims to modernize a legacy back-end system for a travel agency's v
 
 7. REST Controller Development: Implement a REST controller class in the controllers package, featuring a post mapping to handle order placements.
 
-These tasks aim to address the modernization needs of the legacy back-end system while enhancing functionality and usability. The project showcases proficiency in Java, Spring Framework, and back-end development practices.
+These tasks aim to address the modernization needs of the legacy back-end system while enhancing functionality and usability. 
